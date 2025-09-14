@@ -1,0 +1,20 @@
+# 데이터셋 (cifar로 시작하는 모든 파일/폴더)
+SAKD/cifar*
+
+# 실험 결과 및 파생 데이터 폴더
+SAKD/conv_weight_avg/
+SAKD/runs/
+SAKD/new_runs/
+SAKD/simple_avg/
+
+# SEN12MS 데이터셋 폴더
+SAKD/sen12ms/
+
+# 모델 가중치 파일 (*weight로 끝나는 모든 파일/폴더)
+SAKD/*weight
+
+# 테스트 결과 폴더 (주의사항 참고)
+SAKD/test/
+
+
+/home/gpuadmin/papers/beomseok/ipiu2025/knowledge-distillation-pytorch
