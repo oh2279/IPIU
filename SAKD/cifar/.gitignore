@@ -1,0 +1,28 @@
+# 데이터셋 (cifar로 시작하는 모든 파일/폴더)
+cifar*
+
+# 실험 결과 및 파생 데이터 폴더
+conv_weight_avg/
+runs/
+new_runs/
+simple_avg/
+
+# SEN12MS 데이터셋 폴더
+sen12ms/
+
+# 모델 가중치 파일 (*weight로 끝나는 모든 파일/폴더)
+*weight
+
+# 테스트 결과 폴더 (주의사항 참고)
+test/
+
+
+
+./cifar*
+./conv_weight_avg
+./*weight
+./runs
+./new_runs
+./test
+./simple_avg
+./sen12ms
